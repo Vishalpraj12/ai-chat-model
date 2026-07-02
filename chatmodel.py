@@ -20,7 +20,7 @@ st.write("Powered by LangChain + Gemini 2.5 Flash")
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
-    GOOGLE_API_KEY = AQ.Ab8RN6Lv9fiGYDtYqbdEwYgz23Lml_NSCqsJ-bzI8kXkr5bkxg,
+    GOOGLE_API_KEY = "AQ.Ab8RN6Lv9fiGYDtYqbdEwYgz23Lml_NSCqsJ-bzI8kXkr5bkxg",
     temperature=0.7
 )
 
