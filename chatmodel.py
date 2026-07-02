@@ -1,24 +1,3 @@
-'''from dotenv import load_dotenv
-from langchain_google_genai import ChatGoogleGenerativeAI
-
-load_dotenv()
-
-llm = ChatGoogleGenerativeAI(
-    model="gemini-2.5-flash",
-    temperature=0.7
-)
-
-print("Type 'exit' to quit.\n")
-
-while True:
-    user_input = input("You: ")
-
-    if user_input.lower() == "exit":
-        break
-
-    response = llm.invoke(user_input)
-
-    print("AI:", response.content)'''
 
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
@@ -41,6 +20,7 @@ st.write("Powered by LangChain + Gemini 2.5 Flash")
 
 llm = ChatGoogleGenerativeAI(
     model="gemini-2.5-flash",
+    GOOGLE_API_KEY = AQ.Ab8RN6Lv9fiGYDtYqbdEwYgz23Lml_NSCqsJ-bzI8kXkr5bkxg,
     temperature=0.7
 )
 
